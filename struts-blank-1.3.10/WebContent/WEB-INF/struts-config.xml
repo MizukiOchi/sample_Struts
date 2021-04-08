@@ -11,14 +11,14 @@
 
 	<!-- (2)JSPからの遷移先指定 -->
 	<flobal-fowards>
-		<forward name="fail" path="/login.jsp"/>
+		<forward name="fail" path="/pages/Login.jsp"/>
 	</flobal-fowards>
 
 <!-- (3)アクション・クラスの振舞いを指定 -->
 <action-mappings>
 	<action path="/authentication" type="struts.AuthenticationAction" name="AuthenticationForm" scope="session">
-		<forward name="success" path="/welcom.jsp"/>
-		<forward name="fail" path="/login.jsp"/>
+		<forward name="success" path="/pages/Welcom.jsp"/>
+		<forward name="fail" path="/pages/Login.jsp"/>
 	</action>
 </action-mappings>
 

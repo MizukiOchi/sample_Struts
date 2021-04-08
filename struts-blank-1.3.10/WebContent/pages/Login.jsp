@@ -16,7 +16,7 @@ prefix属性により、struts-html.tldを使用する場合は、タグにhtmlを指定する。--%>
 
 ID・パスワードを入力してください。
 <html:form action="/authentication" focus="id"> <%-- (4) <html:form>タグはHTMLの<form>タグとほぼ同様の振舞いをするタグ。action属性はsubmitボタンが押された時の遷移先を指定。focus属性はこのJSPファイルが開かれた時にどのフォーム項目を初めに選択可能にするかを指定する。--%>
-	<html:text property="id" size=16"/> <%-- (5) <html:text>タグはHTMLの<input type=text>タグとほぼ同様の振舞いをするタグ。property属性はHTMLのname属性、size属性はHTMLのsize属性と同様の働きをする。--%>
+	<html:text property="id" size="16"/> <%-- (5) <html:text>タグはHTMLの<input type=text>タグとほぼ同様の振舞いをするタグ。property属性はHTMLのname属性、size属性はHTMLのsize属性と同様の働きをする。--%>
 	<br>
 	<%-- (6) <html:pasword>タグはHTMLの<input type=password>タグとほぼ同様の振舞いをするタグ。redisplay属性は直前に入力した値を再表示するかどうかを指定する。--%>
 	<html:password property="pass" size="16" redisplay="false"/> <%-- ←residsplay属性にfalseを設定することで、入力された内容を非表示にすることが可能。--%>
