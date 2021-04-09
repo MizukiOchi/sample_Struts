@@ -23,7 +23,7 @@
 </action-mappings>
 
 <!-- (4)メッセージ・リソース・ファイルの指定 -->
-<message-resources parameter="resources.application"/>
+<message-resources parameter="MessageResources"/>
 
 </struts-config>
 
