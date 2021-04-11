@@ -10,9 +10,9 @@
 	</form-beans>
 
 	<!-- (2)JSPからの遷移先指定 -->
-	<flobal-fowards>
+	<global-fowards>
 		<forward name="fail" path="/pages/Login.jsp"/>
-	</flobal-fowards>
+	</global-fowards>
 
 <!-- (3)アクション・クラスの振舞いを指定 -->
 <action-mappings>

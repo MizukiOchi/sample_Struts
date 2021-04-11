@@ -1,4 +1,4 @@
-<%--(1)pageヂレクティブを使用し、JSPファイルの属性を指定--%>
+<%--(1)pageディレクティブを使用し、JSPファイルの属性を指定--%>
 <%@ page contentType="text/html; charset=Shift_JIS" %>
 <%--(2)taglibディレクティブを使用し、JSPファイルで使用するタグライブラリを指定する。
 ここでは、Strutsであらかじめ用意されているStrutsタグライブラリのうち、struts-html.tldの使用を指定する。
